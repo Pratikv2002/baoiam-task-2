@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/baoiam-task-2/static/css/main.fcebd0d8.css",
+    "main.js": "/baoiam-task-2/static/js/main.d787db38.js",
+    "static/js/787.87d31560.chunk.js": "/baoiam-task-2/static/js/787.87d31560.chunk.js",
+    "static/media/sectionOneImg.svg": "/baoiam-task-2/static/media/sectionOneImg.5ab720b5538d5e84edeb80b15b678ba9.svg",
+    "static/media/section8img.svg": "/baoiam-task-2/static/media/section8img.32b4cd0c3a731b538e48f27bc3b8ad44.svg",
+    "static/media/google-play-badge.png": "/baoiam-task-2/static/media/google-play-badge.f902960a94878ee0da67.png",
+    "static/media/Section5Img1.svg": "/baoiam-task-2/static/media/Section5Img1.693a220f6b99edfd506d7f1e1f501f14.svg",
+    "static/media/Section8Img.png": "/baoiam-task-2/static/media/Section8Img.511f2de90e4191b9b95f.png",
+    "static/media/baoiamOrangeLogo.jpg": "/baoiam-task-2/static/media/baoiamOrangeLogo.9660b01244f3c77942c8.jpg",
+    "static/media/Section6Img.svg": "/baoiam-task-2/static/media/Section6Img.f776b4220469caa95b24b3c418da021f.svg",
+    "static/media/VideoImgSection3.svg": "/baoiam-task-2/static/media/VideoImgSection3.71a42c5e2d6e4a4d412a7eca0a9a2f79.svg",
+    "index.html": "/baoiam-task-2/index.html",
+    "main.fcebd0d8.css.map": "/baoiam-task-2/static/css/main.fcebd0d8.css.map",
+    "main.d787db38.js.map": "/baoiam-task-2/static/js/main.d787db38.js.map",
+    "787.87d31560.chunk.js.map": "/baoiam-task-2/static/js/787.87d31560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcebd0d8.css",
+    "static/js/main.d787db38.js"
+  ]
+}
