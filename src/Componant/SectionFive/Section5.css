@@ -1,0 +1,350 @@
+.Section5Div{
+    text-align: center;
+    padding: 60px 50px;
+}
+.Section5Div h3{
+    font-weight: 800;
+    font-size: 2.3em;
+    padding: 30px 30px;
+}
+.Section5DivA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 7%;
+  
+}
+.Section5DivAPoint{
+     display: flex;
+     width:300px ;
+     margin: 40px;
+     justify-content: left;
+     padding:10px ;
+     border-radius: 10px;
+}
+.section5DivADivB{
+    text-align: start;
+    margin-left: 10px;
+}
+.section5DivADivB h5{
+    font-weight: 600;
+}
+.section5DivADivB a{
+    text-decoration: none;
+    /* background-color: coral; */
+    color: coral;
+    
+}
+.Section5DivB{
+    padding: 2% 7%;
+    display: flex;
+}
+.Section5DivB img{
+   width: 600px;
+}
+.Section5DivBDivA{
+    margin-top: 100px;
+}
+.Section5DivBDivA p{
+    text-align: start;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.section5Anchor{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.section5Anchor a{
+    font-weight: 600;
+    margin: 7px 7px ;
+    color: coral;
+    text-decoration: none;
+}
+/* .section5Anchor a span{
+    color: black;
+    background: coral;
+    padding: 4px 10px;
+    border-radius: 50%;
+} */
+.section5DivC{
+    margin-top: 100px;
+}
+.section5DivC h4{
+        font-weight: 500;
+        margin: 50px 0px;
+}
+.section5DivCa{
+    margin: 20px;
+}
+.section5DivC a{
+    text-decoration: none;
+    color: white;
+    margin: 60px 30px;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+    border-radius: 30px;
+
+}
+.section5DivCa span{
+  margin: 0px 5px;
+}
+.Section5DivAPoint:hover{
+    transform: scale(1.05);
+    background-image: linear-gradient(to right, rgb(248, 205, 190) ,rgb(248, 173, 145));
+}
+/* A */
+@media screen and (max-width: 1430px) {
+    .Section5Div{
+        padding: 50px 40px;
+    }
+    .Section5DivA{
+        margin: 25px 5%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Section5Div{
+        padding: 40px 20px;
+    }
+    .Section5DivA{
+        margin: 20px 3%;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Section5DivAPoint{
+        margin: 20px;
+        width:270px ;
+    }
+    .Section5Div h3{
+        font-size: 2em;
+        padding: 20px ;
+    }
+}
+@media screen and (max-width: 700px) {
+    .Section5Div{
+        padding: 30px 10px;
+    }
+    .Section5DivAPoint{
+        margin: 10px;
+        width:230px ;
+    }
+    .Section5Div h3{
+        font-size: 1.7em;
+        padding: 15px ;
+    }
+    .section5DivADivB h5{
+        font-size: 1.1em;
+    }
+    .section5DivADivB p{
+        font-size: 0.9em;
+    }
+    .section5DivADivB a{
+        font-size: 0.9em;
+    }
+    .Section5DivA{
+        margin: 10px 1%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .section5Icon img{
+        width: 25px;
+    }
+    .Section5DivAPoint{
+        margin: 5px;
+        width:200px;
+        padding: 5px;
+    }
+    .Section5Div h3{
+        font-size: 1.3em;
+        padding: 15px ;
+    }
+    .section5DivADivB h5{
+        font-size: 1em;
+    }
+    .section5DivADivB p{
+        font-size: 0.8em;
+        margin-bottom: 5px;
+    }
+    .section5DivADivB a{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 450px) {
+    .section5Icon img{
+        width: 20px;
+    }
+    .Section5Div{
+        padding: 30px 5px;
+    }
+    .Section5DivAPoint{
+        margin: 0px;
+        width:150px;
+        padding: 5px;
+    }
+    .Section5Div h3{
+        font-size: 1.2em;
+        padding: 12px ;
+    }
+    .section5DivADivB h5{
+        font-size: 0.8em;
+    }
+    .section5DivADivB p{
+        font-size: 0.6em;
+        margin-bottom: 0px;
+    }
+    .section5DivADivB a{
+        font-size: 0.6em;
+    }
+}
+/* B */
+@media screen and (max-width: 1300px) {
+    .Section5DivB img{
+        width: 550px;
+     }
+}
+@media screen and (max-width: 1200px) {
+    .Section5DivB img{
+        width: 500px;
+     }
+}
+@media screen and (max-width: 1100px) {
+    .Section5DivB{
+        padding: 2% 5%;
+    }
+    .Section5DivB img{
+        width: 470px;
+     }
+     .Section5DivBDivA p{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Section5DivB{
+        padding: 2% 4%;
+    }
+    .Section5DivB img{
+        width: 450px;
+     }
+     .Section5DivBDivA p{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Section5DivB{
+        padding: 2% 4%;
+    }
+    .Section5DivB img{
+        width: 430px;
+     }
+     .Section5DivBDivA p{
+        font-size: 1em;
+    }
+    .section5Anchor>a{
+       font-size: 0.9em;
+       margin: 5px 5px ;
+
+    }
+    .Section5DivBDivA p{
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+    .Section5DivBDivA{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Section5DivB img{
+        width: 370px;
+     }
+     .Section5DivB{
+        padding: 2% 3%;
+    }
+    .Section5DivBDivA p{
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+    .Section5DivBDivA{
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .Section5DivB img{
+        width: 300px;
+     }
+     .Section5DivB{
+        padding: 2% 2%;
+    }
+    .Section5DivBDivA p{
+        font-size: 0.9em;
+    }
+    .section5Anchor>a{
+        font-size: 0.8em;
+     }
+    }
+    .section5Anchor a span{
+        color: black;
+        background: coral;
+        padding: 1px 5px;
+        border-radius: 50%;
+    }
+@media screen and (max-width: 600px) {
+    .Section5DivB img{
+       display: none;
+     }
+     .Section5DivBDivA p{
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 10px;
+    }
+    .section5Anchor>a{
+        font-size: 0.8em;
+        margin: 5px 5px ;
+        text-align: center;
+ 
+     }
+    }
+    /* C */
+    @media screen and (max-width: 760px) {
+        .section5DivC a{
+            margin: 50px 20px;
+        }
+        .section5DivC{
+            margin-top: 60px;
+        }
+        .section5DivC h4{
+                margin: 40px 0px;
+                font-size: 1.1em;
+        }
+        .section5DivCa{
+            margin: 15px;
+        }
+
+    }
+    @media screen and (max-width: 670px) {
+       
+        .section5DivC a{
+            margin: 30px 10px;
+            font-size: 0.8em;
+        }
+        .section5DivCa{
+            margin: 5px;
+        }
+        .section5DivC h4{
+            margin: 20px 0px;
+        }
+        .section5DivC{
+            margin-top: 30px;
+            padding: 15px !important;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .section5DivC a{
+         display: block;
+         margin: 10px 20%;
+         padding: 5px 10px;
+        }
+        .section5DivC{
+            padding: 10px !important;
+        }
+    }

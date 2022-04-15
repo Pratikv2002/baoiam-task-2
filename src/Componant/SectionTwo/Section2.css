@@ -1,0 +1,98 @@
+.section2{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.section2Div{
+    display: flex;
+    margin:0px 7% ;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 40px  rgba(226, 144, 51, 0.418);
+}
+.section2DivCards{
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.section2Div h6{
+    margin: 7px 0px;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #0099ff;
+}
+.section2Div h5{
+    margin: 7px 0px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.section2Div h4{
+    margin: 7px 0px 10px 0px;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.section2Div a{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+.section2DivCards:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 30px rgba(216, 159, 36, 0.308);
+}
+@media screen and (max-width: 1100px) {
+    .section2Div{
+        margin:0px 5% ;
+        padding: 20px;
+    }
+    .section2DivCards{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .section2Div{
+        margin:0px 3% ;
+        padding: 15px;
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+        overflow-y: scroll;
+    }
+    .section2Div::-webkit-scrollbar {
+        display: none; 
+    }
+    .section2DivCards{
+        min-width: 310px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section2{
+        margin-top: 50px;
+    }
+    .section2Div{
+        padding:7px ;
+    }
+    .section2Div h6{
+        font-size: 0.8em;
+    }
+    .section2Div h5{
+        font-size: 1.1em;
+    }
+    .section2Div h4{
+       font-size: 0.8em;
+    }
+    .section2Div a{
+        font-size: 12px;
+    }
+    .section2DivCards{
+        margin: 5px;
+        padding: 5px;
+        /* width: 250px !important;
+        background-color: aqua; */
+       min-width: 280px;
+    
+    }
+    
+}

@@ -1,0 +1,87 @@
+.Section4{
+    background-image: linear-gradient(to right, #fefbf6, #ffd0aa,#fefbf6);
+}
+.Section4Div{
+    margin: 0% 10%;
+}
+.SlideBox{
+ text-align: center;
+}
+.carousel-inner{
+    padding: 20px;
+}
+video{
+    width: 700px;
+}
+.SlideBox h2 span{
+    color: coral;
+    font-weight: 700;
+}
+@media screen and (max-width: 1100px) {
+    video{
+        width: 570px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .Section4Div{
+        margin: 0% 5%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Section4Div{
+        margin: 0% 2%;
+    }
+    .carousel-inner{
+        padding: 10px;
+    }
+    video{
+        width: 400px;
+    }
+    .SlideBox h2{
+        font-size: 22px;
+    }
+    .carousel-indicators{
+        margin-bottom: 0px;
+    }
+    .carousel-indicators button{
+        width: 25px !important;
+    }
+    .Section4{
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .carousel-inner{
+        padding: 0px;
+    }
+    .carousel-control-prev{
+         width: 20px;
+    }
+    .carousel-control-next{
+        width: 20px;
+    }
+    .carousel-control-prev-icon{
+        width: 15px;
+    }
+    .carousel-control-next-icon{
+        width: 15px;
+    }
+    video{
+        width: 350px !important;
+    }
+    .Section4Div{
+        margin: 0% 1%;
+    }
+    .carousel-indicators{
+     margin-bottom:-20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    video{
+        width: 280px !important;
+    }
+    .SlideBox h2{
+        font-size: 1.1em;
+        }
+}

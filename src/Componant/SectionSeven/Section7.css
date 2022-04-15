@@ -1,0 +1,189 @@
+.Section7{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+}
+.Section7Div{
+   margin:50px 50px;
+   padding:2% 5%;
+   display: flex;
+   justify-content: space-around;
+}
+.Section7DivA{
+    margin: 10px 20px;
+     width: 400px;
+}
+.Section7DivA h4{
+   /* font-family: 'Caveat', cursive;  */
+   color: rgb(253, 115, 65);
+   font-size: 1.2em;
+}
+.Section7DivA h2{
+    font-weight: 800;
+}
+.Section7DivA a{
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+}
+.Section7DivB{
+    margin-left: 20px;
+}
+@media screen and (max-width: 1200px) {
+    .Section7DivB video{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .Section7Div{
+        margin:50px 10px;
+        padding:2% 2%;
+    }
+    .Section7DivB video{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Section7DivA{
+        margin: 10px 20px;
+         width: 350px;
+    }
+    .Section7DivA h4{
+        font-size: 1.1em;
+     }
+     .Section7DivA h2{
+        font-size: 1.3em;
+     }
+     .Section7DivA a{
+       font-size: 1em;
+     }
+    .Section7DivB video{
+        width: 450px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .Section7DivA{
+         width: 300px;
+    }
+    .Section7DivA h4{
+        font-size: 1em;
+     }
+     .Section7DivA h2{
+        font-size: 1.2em;
+     }
+     .Section7DivA a{
+       font-size: 0.9em;
+     }
+    .Section7DivB video{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Section7Div{
+        padding: 0px;
+    }
+    .Section7DivA{
+        margin: 10px 20px;
+         width: 250px;
+    }
+    .Section7DivA h4{
+        font-size: 1em;
+     }
+     .Section7DivA h2{
+        font-size: 1.1em;
+     }
+     .Section7DivA a{
+       font-size: 0.9em;
+     }
+    .Section7DivB video{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .Section7DivA{
+        margin: 10px 10px;
+         width: 230px;
+    }
+     .Section7DivA p{
+         font-size: 0.8em;
+     }
+     .Section7DivA a{
+       font-size: 0.8em;
+       padding:5px 10px ;
+     }
+    .Section7DivB video{
+        height: 250px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Section7Div{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .Section7DivA{
+         width: 350px;
+         text-align: center;
+    }
+    .Section7DivA h4{
+        font-size: 1.1em;
+     }
+     .Section7DivA h2{
+        font-size: 1.2em;
+     }
+     .Section7DivA p{
+         font-size: 0.9em;
+     }
+     .Section7DivA a{
+       font-size: 0.9em;
+       padding:10px 15px ;
+     }
+     .Section7DivB video{
+         height: 200px;
+        width: 450px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Section7DivB video{
+        width: 400px;
+    }
+    .Section7Div{
+        margin: 25px 0px;
+    }
+    .Section7DivB{
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Section7DivA{
+        width: 300px;
+   }
+    .Section7DivB video{
+        height: 150px;
+        width: 450px;
+    }
+    .Section7Div{
+        margin: 25px 0px;
+    }
+    .Section7DivA h4{
+        font-size: 0.9em;
+     }
+     .Section7DivA h2{
+        font-size: 1em;
+     }
+     .Section7DivA p{
+         font-size: 0.8em;
+     }
+     .Section7DivA a{
+       font-size: 0.8em;
+       padding:5px 10px ;
+     }
+
+}
+@media screen and (max-width: 100px) {
+    
+}

@@ -1,0 +1,237 @@
+
+.Section6{
+    margin: 5%;
+}
+.section6Div{
+    padding: 0px 5%;
+    display: flex;
+    /* justify-content:center; */
+}
+.section6DivA {
+ margin: 20px 20px;
+}
+.section6DivA h4{
+    color: rgb(27, 204, 248);
+    /* font-family: 'Satisfy', cursive; */
+    /* font-family: 'Courgette', cursive; */
+}
+.section6Div h3{
+    /* font-family: 'Roboto Serif', sans-serif; */
+}
+.section6DivB img{
+    width: 200px;
+}
+.section6DivA h6{ 
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin: 40px 20px;
+    /* border: 2px solid rgb(27, 204, 248); */
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.section6Div2{
+    display: flex;
+    margin: 50px 50px;
+    justify-content: space-evenly;
+}
+.section6Box{
+    /* height: 230px; */
+    width: 400px;
+    margin: 40px 20px 40px 20px ;
+    padding: 20px;
+    box-shadow: 10px 10px 30px rgba(36, 204, 216, 0.308);
+    border-radius: 10px;
+}
+.section6Box h4{
+       font-weight: 600;
+}
+.section6Box a{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
+.section6Box span{
+    margin: 5px 10px;
+    padding: 0px 5px;
+    color: black;
+    background-color:rgb(27, 204, 248);
+    border-radius: 50%; 
+}
+.section6Div3 a{
+ float: right;
+ margin:-20px 50px 50px 0px;
+ padding: 10px 15px;
+ text-decoration: none;
+ background-image: linear-gradient(to right, rgb(78, 217, 252), rgb(152, 234, 255) );
+ border-radius: 20px;
+}
+.section6Box a:hover{
+    color: rgb(4, 65, 122);
+}
+.section6Div3 a:hover{
+   color: rgb(2, 26, 32);
+}
+.section6Div3 span{
+   color: black;
+   margin: 0px 10px;
+}
+.section5DivC{
+    padding: 20px;
+    background-image: linear-gradient(to right,white,rgb(158, 240, 255),white);
+}
+/* A */
+@media screen and (max-width: 900px) {
+    .Section6{
+        margin: 3%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .section6Div{
+        padding: 0px 3%;
+    }
+    .section6DivA h4{
+        font-size: 1.1em;
+    }
+    .section6DivA h3{
+        font-size: 1.3em;
+    }
+    .section6DivA h6{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 700px) {
+    .section6Div{
+        padding: 0px 1.5%;
+    }
+    .section6DivA h6{
+        margin: 30px 10px;
+    }
+    .section6DivA{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section6Div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section6DivA h4{
+        font-size: 1em;
+    }
+    .section6DivA h3{
+        font-size: 1.2em;
+    }
+    .section6DivA h6{
+        font-size: 0.8em;
+    }
+    .section6DivB img{
+        width: 230px;
+    }
+}
+/* B */
+@media screen and (max-width: 1470px) {
+     .section6Div2{
+        margin: 25px 3%;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+        overflow-y: scroll;
+        justify-content: start;
+     }
+     .section6Box{
+        min-width: 364px;
+     }
+     .Section6{
+        margin: 1.5%;
+    }
+     .section6Div2::-webkit-scrollbar {
+        display: none; 
+    }
+}
+@media screen and (max-width: 1300px) {
+    .section6Div2{
+          box-shadow: 10px 10px 20px rgba(2, 26, 32, 0.466);
+          border-radius: 10px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .section6Box{
+        padding: 10px;
+     }
+     .section6Box h4{
+        font-size: 1.2em;
+     }
+     .section6Box p{
+        font-size: 1em;
+     }
+     .section6Box a{
+        font-size: 1em;
+     }
+}
+@media screen and (max-width: 800px) {
+    .section6Div2{
+        margin: 10px;
+    }
+    .section6Box{
+        margin: 30px 20px ;
+     }
+}
+@media screen and (max-width: 700px) {
+    .section6Box{
+        margin: 30px 10px ;
+     }
+     .section6Box h4{
+        font-size: 1.1em;
+     }
+     .section6Box p{
+        font-size: 0.9em;
+     }
+     .section6Box a{
+        font-size: 0.9em;
+     }
+}
+@media screen and (max-width: 450px) {
+    .section6Box h4{
+        font-size: 1em;
+     }
+     .section6Box p{
+        font-size: 0.8em;
+     }
+     .section6Box a{
+        font-size: 0.8em;
+     }
+     .section6Box{
+        min-width: 285px;
+     }
+     .section6Div2{
+       padding: 0px 10px;
+       margin:10px 0px ;
+    }
+}
+/* c */
+@media screen and (max-width: 1000px) {
+    .section6Div3 a{
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 800px) {
+    .section6Div3 a{
+        font-size: 0.9em;
+        margin:0px 50px 50px 0px;
+        padding: 10px 15px;
+        padding: 7px 13px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section6Div3 a{
+        font-size: 0.8em;
+        margin:0px ;
+        padding: 5px 10px;
+        text-align: center;
+        float: none;
+
+    }
+    .section6Div3{
+        text-align: center;
+    }
+}

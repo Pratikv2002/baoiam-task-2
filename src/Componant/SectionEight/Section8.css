@@ -1,0 +1,208 @@
+.Section8Div{
+margin: auto;
+}
+.section8Inside{
+    width: 600px;
+    padding: 50px 100px;
+}
+.section8Inside h5{
+    font-size: 1.1em;
+    color: coral;
+    /* font-family: 'Caveat', cursive;  */
+    font-weight: 600;
+}
+.section8Inside h4{
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+}
+.section8Inside a{
+    position: relative ;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+}
+.Section8DivBDivA{
+   width: 330px;
+   box-shadow: 10px 10px 30px rgba(90, 89, 89, 0.644);
+   border-radius: 10px;
+   padding: 15px 15px;
+}
+.Section8DivB{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.Section8DivBDivAImg{
+    display: flex;
+}
+.Section8DivBDivAImg img{
+    width: 30px;
+    height: 30px;
+}
+.demo a{
+    padding: 0px 6px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+    position: relative;
+    float: right;
+    top:45px;
+    color: white;
+    padding: 0px 6px;
+     
+}
+.demo2 a{
+    padding: 0px 6px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+    position: relative;
+    float: right;
+    top: 20px;
+    color: white;
+    padding: 0px 6px;
+}
+.demo3 a{
+     padding: 0px 6px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+    position: relative;
+    float: right;
+    top: -2px;
+    color: white;
+    padding: 0px 6px;
+}
+.demo4 a{
+    padding: 0px 6px;
+    border-radius:10px;
+    background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+    position: relative;
+    float: right;
+    top: 70px;
+    color: white;
+}
+.Section8special{
+    background-image: linear-gradient(135deg, rgb(11, 11, 100), rgb(102, 102, 185));
+}
+.Section8special h4{
+    color: white;
+    font-weight: 600;
+}
+.Section8DivA{
+    display: flex;
+    margin: 2% 10%;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.Section8DivA img{
+  height: 300px;
+  width: 300px;
+}
+/* A */
+@media screen and (max-width: 1000px) {
+    .Section8DivA img{
+        height: 250px;
+        width: 250px;
+      }
+      .section8Inside{
+        width: 550px;
+        padding: 50px 50px;
+    }
+}
+@media screen and (max-width:850px){
+    .Section8DivA img{
+        height: 200px;
+        width: 200px;
+    }
+    .section8Inside h5{
+        font-size: 1em;
+    }
+    .section8Inside h4{
+        font-size: 1.2em;
+        margin-bottom: 25px;
+        
+    }
+    .section8Inside a{
+        font-size: 1em;
+        padding: 7px 12px;
+}
+.section8Inside{
+    padding: 35px;
+}
+}
+@media screen and (max-width:700px){
+    .section8Inside{
+        padding: 20px;
+    }
+    .section8Inside h5{
+        font-size: 0.9em;
+    }
+    .section8Inside h4{
+        font-size: 1.1em;
+        margin-bottom: 20px;
+        
+    }
+    .section8Inside a{
+        font-size: 0.9em;
+        padding: 7px 12px;
+}
+}
+@media screen and (max-width:550px){
+    .Section8DivA{
+        text-align: center;
+        display: block;
+    }
+    .section8Inside{
+        display: inline;
+        text-align: center;
+        padding: 0px;
+        margin: 20px;
+    }
+    .section8Inside h5{
+        font-size: 0.8em;
+    }
+    .section8Inside h4{
+        font-size: 1em;
+        margin-bottom: 20px;
+        
+    }
+    .section8Inside a{
+        font-size: 0.8em;
+        padding: 7px 12px;
+}
+}
+/* B */
+@media screen and (max-width:1410px){
+    .Section8DivB{
+        margin:0px 3% ;
+        padding: 15px;
+        -ms-overflow-style: none; 
+        scrollbar-width: none;
+        overflow-y: scroll;
+        justify-content: start;
+    }
+    .Section8DivBDivA{
+        min-width: 330px;
+        margin: 10px;
+    }
+    .Section8DivBDivA::-webkit-scrollbar {
+        display: none; 
+    }
+}
+@media screen and (max-width:700px){
+    .Section8DivB{
+        margin:0px 0.5%;
+    }
+    .Section8DivBDivAImg img{
+        width: 25px;
+        height: 25px;
+    }
+    .Section8DivBDivAImg p{
+        font-size: 0.9em;
+    }
+    .Section8DivBDivA{
+        min-width: 300px;
+    }
+}

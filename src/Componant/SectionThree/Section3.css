@@ -1,0 +1,162 @@
+.Section3{
+  background-image: linear-gradient(to right, #fefbf6, #ffd0aa,#fefbf6);
+  padding: 2%;
+  margin-top: 10%;
+}
+.Section3Img{
+  position: absolute;
+  z-index: 2;
+  width: 350px;
+  right: 980px;
+  top: -30px;
+}
+.Section3Inside{
+    position: relative;
+    box-shadow:  5px 5px 40px  rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    margin: 0px 7%;
+    bottom:110px;
+    /* background-color: #4F7EFF;
+     */
+     background-image: linear-gradient(to right, #fefbf6, #ffd0aa,#fefbf6);
+  
+}
+.section3Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Search{
+    display: flex;
+    justify-content:center;
+     margin: 20px 0px;
+}
+.section3Heading{
+  padding: 10px 0px 0px 350px;
+}
+.section3Heading h4{
+  /* font-family: 'Caveat', cursive; */
+   margin-left: -50px;
+   color: rgb(4, 241, 36);
+   font-weight: 600;
+}
+.section3Heading h3{
+  /* font-family: 'Caveat', cursive; */
+    margin:0px;
+}
+.searchDiv{
+    margin: 0px 30px;
+}
+select {
+    position: relative;
+    width: 200px;
+    margin-right: 1rem;
+    padding: 10px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    border-bottom:2px solid black;
+    border-style: none none dashed none;
+
+  }
+  select[open] {
+    z-index: 1;
+  }
+  .searchDivBtn button{
+        padding: 10px 20px;
+       background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+        border: 1px solid rgb(161, 49, 8);
+        border-radius: 10px;
+  }
+  @media screen and (max-width: 1450px) {
+    .Section3Img{
+      display: none;
+    }
+    .section3Heading{
+      padding: 10px 0px 0px 300px;
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .section3Heading{
+      padding: 10px 0px 0px 250px;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .section3Heading{
+      padding: 10px 0px 0px 200px;
+    }
+    .Section3Inside{
+      margin: 0px 3%;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .section3Heading{
+      padding: 10px 0px 0px 150px;
+    }
+    .Section3Inside{
+      margin: 0px 3%;
+    }
+    .section3Heading h4{
+      font-size: 1.2em;
+    }
+    .section3Heading h3{
+      font-size: 1.4em;
+    }
+    select {
+      font-size: 0.8em;
+      width: 150px;
+    }
+    .searchDivBtn button{
+      padding: 7px 15px;
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .section3Heading{
+      padding: 10px 0px 0px 100px;
+    }
+    .Section3Inside{
+      margin: 0px 2%;
+    }
+    .section3Heading h4{
+      font-size: 1.1em;
+    }
+    .section3Heading h3{
+      font-size: 1.3em;
+    }
+    select {
+      width: 120px;
+    }
+    .searchDiv{
+      margin: 0px 15px;
+  }
+  .searchDivBtn button{
+    padding: 5px 12px;
+  }
+  }
+  @media screen and (max-width: 500px) {
+    .section3Heading{
+      padding: 10px 0px 0px 0px !important;
+      text-align: center;
+    }
+    .section3Heading h4{
+      margin: 0px;
+      text-align: center;
+      font-size: 1em;
+    }
+    .section3Heading h3{
+      text-align: center;
+      font-size: 1.1em;
+    }
+    .Search{
+      display: flex;
+      flex-direction: column;
+      align-items:center; 
+    }
+    select {
+      width: 200px;
+      margin: 10px 0px;
+      font-size: 0.9em;
+    }
+    .section2{
+      margin-bottom: 0px;
+    }
+  }

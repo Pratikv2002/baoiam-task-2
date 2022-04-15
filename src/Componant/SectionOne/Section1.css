@@ -1,0 +1,162 @@
+.section1{
+   /* background-image: url(./wave.svg); */
+   background-repeat: no-repeat;
+   background-position: center;
+  background-size:850vh;
+  margin-top: 70px;
+
+}
+.section1Div{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 0px 50px;
+    padding: 0px 50px;
+}
+.sectionDivA{
+    margin-top: 100px;
+}
+.sectionDivA h1{
+    font-size: 5em;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.sectionDivA h3{
+    font-size: 2em;
+    margin: 0px 0px;
+    font-weight: 600;
+}
+.sectionDivA h5{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.sectionDivB img{
+    margin-top: 50px;
+    height: 500px;
+}
+.explore h4{
+   margin-bottom: 30px;
+}
+.exploreDiv a{
+ margin: 0px 10px;
+ text-decoration: none;
+ color: black;
+ background-image: linear-gradient(to right,rgb(255, 137, 94) ,rgb(243, 179, 106));
+ border: 2px solid red;
+ padding: 10px 15px;
+ border-radius: 25px;
+}
+@media screen and (max-width: 1100px) {
+    .section1Div{
+        margin: 0px 25px;
+        padding: 0px 25px;
+    }
+    .sectionDivB img{
+        margin-top: 50px;
+        height: 450px;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .section1{
+        background-size:650vh;
+    }
+    .sectionDivA{
+        margin-top: 80px;
+    }
+    .sectionDivB img{
+        margin-top: 50px;
+        height: 400px;
+    }
+    .sectionDivA{
+        margin-top: 100px;
+    }
+    .sectionDivA h1{
+        font-size: 4em;
+    }
+    .sectionDivA h3{
+        font-size: 1.8em;
+    }
+    .sectionDivA h5{
+        font-size: 17px;
+    }
+    .explore h4{
+        margin-bottom: 24px;
+        font-size: 20px;
+     }
+    .exploreDiv a{
+        margin: 0px 7px;
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 840px){
+    .sectionDivB img{
+        margin-top: 30px;
+        height: 350px;
+    }
+    .sectionDivA{
+        margin-top: 70px;
+    }
+    .sectionDivA h1{
+        font-size: 3.5em;
+    }
+    .sectionDivA h3{
+        font-size: 1.5em;
+    }
+    .sectionDivA h5{
+        font-size: 15px;
+    }
+    .explore h4{
+        margin-bottom: 21px;
+     }
+    .exploreDiv a{
+        margin: 0px 7px;
+        padding: 5px 9px;
+        font-size: 13px;
+    }
+    .explore h4{
+        margin-bottom: 21px;
+     }
+}
+@media screen and (max-width: 740px){
+    .section1Div{
+        flex-wrap: wrap-reverse;
+    }
+    .sectionDivB img{
+        margin-top: 20px;
+        height: 300px;
+    }
+    .sectionDivA{
+        margin-top: 30px;
+    }
+    .explore h4{
+        margin-bottom: 19px;
+     }
+}
+@media screen and (max-width: 500px){
+    .sectionDivB img{
+        margin-top: 10px;
+        height: 200px;
+        width: 300px;
+    }
+    .section1Div{
+        margin: 0px 7px;
+        padding: 0px 7px;
+    }
+    .sectionDivA{
+        margin-top: 5px;
+    }
+    .section1{
+        background-size:850vh;
+    }
+    .explore h4{
+        margin-bottom: 17px;
+        font-size: 18px;
+     }
+    .exploreDiv a{
+        margin: 0px 5px;
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+}
